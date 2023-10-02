@@ -1,6 +1,8 @@
 # TEXT2SQL
 The following repo contains files to Fine-Tune and evaluate an LLM for Text to SQL tasks.
-We see big improvement in ROGUE scores from fine-tuning ~100% which shows the value of fine-tuning.
+We see big improvement in ROGUE scores from fine-tuning > 100% which shows the value of fine-tuning (see figure below).
+
+![screenshot.png](https://github.com/jai-llm/TEXT2SQL/blob/main/ROGUE_Scores_Llama_vs_Finetune.png)
 ROGUE score is used for evaluation but better approach would be run queries against a database to confirm results.
 
 The datset used for this project is the "b-mc2/sql-create-context" available on the Hugging Face Hub.
